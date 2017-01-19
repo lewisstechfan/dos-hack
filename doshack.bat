@@ -1,5 +1,5 @@
 echo off
 cls
 set /p web=website/ip:
-set c/ppack=packet size:
+set /p pack=packet size:
 ping %web% -t -l %ppack%
